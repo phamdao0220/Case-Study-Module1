@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+<body>
+<h1>Trang quản lý nhạc </h1>
+<input type="text" id="music-search" placeholder=" Tìm kiếm ">
+<a href="musci.html"> Trang phát nhạc </a>
+<form>
+    <fieldset id="demo">
+        <legend>Thêm nhạc mới </legend>
+        <input type="text" id="music-name" placeholder="Nhập tên nhạc...">
+        <input type="text" id="music-singer" placeholder="Nhập tên ca sĩ...">
+        <input type="text" id="music-category" placeholder="Nhập tên thể loại...">
+        <input type="text" id="music-lyrics" placeholder="Nhập lời bài hát...">
+        <button class="music" type="button" onclick="addMusic()">Thêm</button>
+        <button type="button" onclick="updateMusic()">Sửa</button>
+
+
+    </fieldset>
+</form>
+
+<table id="management" border="1px solid">
+</table>
+
+<script src="Management-Music.js"></script>
+<script src="Music.js"></script>
+
+</body>
+
+
+</html>
+<style>
+    fieldset {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    * {
+        margin: 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 20px;
+    }
+
+    h1 {
+        background-color: darkgrey;
+        margin-bottom: 10px;
+    }
+
+    .music {
+        background-color: chartreuse;
+    }
+
+    button {
+        border: 10px;
+        background-color: orange;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .sum {
+        color: white;
+        background-color: red;
+    }
+
+    a {
+        margin-left: 1100px;
+        background-color: paleturquoise;
+        border-radius: 20px;
+        padding: 7px 15px;
+    }
+
+    th {
+        background-color: darkseagreen;
+    }
+
+    legend {
+
+        color: darkred
+    }
+</style>
