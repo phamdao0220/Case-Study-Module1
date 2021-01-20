@@ -15,7 +15,7 @@ function display() {
         <th>Ca sĩ </th>
         <th>Thể loại </th>
         <th>Lời bài hát </th>
-        <th colspan='2'>Action</th>
+        <th colspan='2'>Hành động </th>
     </tr>`;
     for (let i = 0; i < management.length; i++) {
         str += `<tr>

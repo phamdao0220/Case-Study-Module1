@@ -13,11 +13,18 @@
 </head>
 <body>
 <h1>Trang quản lý nhạc </h1>
-<input type="text" id="music-search" placeholder=" Tìm kiếm ">
-<a href="musci.html"> Trang phát nhạc </a>
+<div class="text">
+<a  href="Musics.html" style="color: red" target="_blank">HOME USER</a>
+</div>
+
+<!--<input class="header" type="text" id="music-search" placeholder=" Tìm kiếm "><br>-->
+
+<a  class="header" href="demo.html">Quay lại </a>
+<a class="name" href="musci.html"> Trang phát nhạc </a>
+
 <form>
     <fieldset id="demo">
-        <legend>Thêm nhạc mới </legend>
+        <legend>Thêm nhạc mới</legend>
         <input type="text" id="music-name" placeholder="Nhập tên nhạc...">
         <input type="text" id="music-singer" placeholder="Nhập tên ca sĩ...">
         <input type="text" id="music-category" placeholder="Nhập tên thể loại...">
@@ -47,6 +54,7 @@
 
     * {
         margin: 0;
+
     }
 
     table {
@@ -56,7 +64,7 @@
     }
 
     h1 {
-        background-color: darkgrey;
+        color: darkviolet;
         margin-bottom: 10px;
     }
 
@@ -76,8 +84,8 @@
         background-color: red;
     }
 
-    a {
-        margin-left: 1100px;
+    .name {
+        margin-left: 1000px;
         background-color: paleturquoise;
         border-radius: 20px;
         padding: 7px 15px;
@@ -85,10 +93,46 @@
 
     th {
         background-color: darkseagreen;
+        /*text-align: center;*/
     }
 
     legend {
 
         color: darkred
     }
+
+    td {
+        text-align: center;
+    }
+
+    body {
+        background-image: url("https://tuyensinh.tdmu.edu.vn/img/ckeditor/images/am2.png");
+        background-size: cover;
+    }
+
+    .text {
+        border-radius: 20px;
+        padding: 5px 15px;
+        margin-top: 15px;
+
+    }
+
+
+
+    form {
+        margin-top: 10px;
+    }
+    input{
+       margin-top: 20px;
+    }
+    .header{
+        background-color: cadetblue;
+        border-radius: 20px;
+        padding: 5px 15px;
+        margin-left: 10px;
+        width: 60px
+    }
+
+
+
 </style>

@@ -20,21 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1892a7b-80df-445e-a967-de8a15c0d641" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Management-Music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/bai1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/bai2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/bai3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/bai4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Musics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/play.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../baitaptet/chuyendoi.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../baitaptet/cvcanhan.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../if-else/baitap1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mang01/bai1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mang01/tic-tac-toe/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Music.js" beforeDir="false" afterPath="$PROJECT_DIR$/Music.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musci.html" beforeDir="false" afterPath="$PROJECT_DIR$/musci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html/baitap3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/baitap3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../toantu/baitap6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../toantu/baitap6.html" afterDir="false" />
     </list>
@@ -52,7 +51,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nDkHDKQLwAG40mR4LNinIiMaOi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,12 +64,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/audio" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/audio" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +86,8 @@
       <workItem from="1611019031723" duration="5114000" />
       <workItem from="1611044482835" duration="6167000" />
       <workItem from="1611068126303" duration="5058000" />
-      <workItem from="1611077107197" duration="493000" />
+      <workItem from="1611077107197" duration="916000" />
+      <workItem from="1611104647846" duration="15446000" />
     </task>
     <servers />
   </component>
@@ -114,6 +115,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1610932677466" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611131707068">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1611131707068" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1611072598465">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Music.js"></script>
+    <script src="Management-Music.js"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: darkviolet;
+    }
+    th  {
+        background-color: darkseagreen;
+    }
+    a{
+       background-color: lightcoral;
+        border-radius: 20px;
+        padding: 7px 15px;
+
+    }
+
+    table {
+        margin-top: 25px;
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    body {
+
+        background-image: url("https://lh3.googleusercontent.com/proxy/ecQBaaljQMg7fU3OXerUMOy7h__5z1oe23wZ7iy0UA-OKsWBTcaisCbugXFCXBE99rYAsgFfMmaJAfsp1hqCG-6yaU0VOZutF4drAgrQFrPnGPFUvpC4tFtF3xLsqhJ6Nn2OrOPjNHWmHtEtjCYx");
+        background-size: cover;
+    }
+
+</style>
+<body>
+<h1>Trang lưu thông tim nhạc </h1>
+<a href="index.html">Quay lại </a>
+<table id="play-music" border="1px solid"></table>
+<script>
+    let playMusic = loadData();
+
+    function displayMusics() {
+        let str = ` <tr>
+                        <th>STT</th>
+                        <th>Tên nhạc </th>
+                        <th>Tên ca sĩ </th>
+                        <th>Thể loại nhạc </th>
+                        <th>Lời bài hát </th>
+                        </tr>`
+
+        ;
+        for (let i = 0; i < playMusic.length; i++) {
+            str += `<tr>
+                        <td>${i + 1}</td>
+                        <td>${playMusic[i][0]}</td>
+                        <td>${playMusic[i][1]}</td>
+                        <td>${playMusic[i][2]}</td>
+                        <td>${playMusic[i][3]}</td>
+
+            </tr>`
+        }
+        document.getElementById("play-music").innerHTML = str;
+    }
+
+    displayMusics();
+
+</script>
+</body>
+</html>
