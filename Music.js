@@ -11,11 +11,11 @@ let current = -1;
 function display() {
     let str = ` <tr>
         <th>Stt</th>
-        <th>Tên nhạc </th>
+        <th>Tên bài hát  </th>
         <th>Ca sĩ </th>
         <th>Thể loại </th>
-        <th>Lời bài hát </th>
-        <th colspan='2'>Hành động </th>
+        <th>Ảnh </th>
+        <th colspan='2'>Chức năng </th>
     </tr>`;
     for (let i = 0; i < management.length; i++) {
         str += `<tr>
@@ -23,7 +23,7 @@ function display() {
                             <td>${management[i][0]}</td>
                             <td>${management[i][1]}</td>
                             <td>${management[i][2]}</td>
-                            <td>${management[i][3]}</td>
+                            <td><img style="width: 100px;height: 100px" src="${management[i][3]}"></td>
                              <td><button onclick="editMusic(${i})">Sửa </button></td>
                             <td><button class="sum" onclick="deleteMusic(${i})">Xoá </button></td>
                         </tr>`;
@@ -39,16 +39,16 @@ function addMusic() {
     let name = document.getElementById("music-name").value;
     let singer = document.getElementById("music-singer").value;
     let category = document.getElementById("music-category").value;
-    let lyrics = document.getElementById("music-lyrics").value;
-    if (name != "" && singer != "" && category != "" && lyrics != "") {
-        alert("Successfully Added Music !!!");
-        let music = [name, singer, category, lyrics];
+    let img = document.getElementById("music-img").value;
+    if (name != "" && singer != "" && category != "" && img != "") {
+        alert("Bạn đã thêm thành công ");
+        let music = [name, singer, category, img];
         management.push(music);
         console.log(music);
         display();
         resetInput();
     } else {
-        alert("Please input name");
+        alert("Làm ơn nhập đầy đủ các ô ");
     }
 
 }
@@ -57,8 +57,8 @@ function updateMusic() {
     let name = document.getElementById("music-name").value;
     let singer = document.getElementById("music-singer").value;
     let category = document.getElementById("music-category").value;
-    let lyrics = document.getElementById("music-lyrics").value;
-    let music = [name, singer, category, lyrics];
+    let img = document.getElementById("music-img").value;
+    let music = [name, singer, category, img];
     management[current] = music;
     display(music);
     resetInput();
@@ -69,7 +69,7 @@ function editMusic(index) {
     document.getElementById("music-name").value = management[index][0];
     document.getElementById("music-singer").value = management[index][1];
     document.getElementById("music-category").value = management[index][2];
-    document.getElementById("music-lyrics").value = management[index][3];
+    document.getElementById("music-img").value = management[index][3];
     current = index;
 
 
@@ -88,7 +88,7 @@ function resetInput() {
     document.getElementById("music-name").value = "";
     document.getElementById("music-singer").value = "";
     document.getElementById("music-category").value = "";
-    document.getElementById("music-lyrics").value = "";
+    document.getElementById("music-img").value = "";
 
 }
 

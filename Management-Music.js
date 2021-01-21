@@ -1,10 +1,10 @@
 class Music {
-    constructor(stt, name, category, singer, lyrics) {
+    constructor(stt, name, category, singer, img) {
         this._stt = stt;
         this._name = name;
         this._category = category;
         this._singer = singer;
-        this._lyrics = lyrics;
+        this._img = img;
     }
 
     get stt() {
@@ -39,11 +39,11 @@ class Music {
         this._singer = value;
     }
 
-    get lyrics() {
-        return this._lyrics;
+    get img() {
+        return this._img;
     }
 
-    set lyrics(value) {
-        this._lyrics = value;
+    set img(value) {
+        this._img = value;
     }
 }

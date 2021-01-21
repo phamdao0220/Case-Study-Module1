@@ -20,20 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1892a7b-80df-445e-a967-de8a15c0d641" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Musics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../baitaptet/chuyendoi.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../baitaptet/cvcanhan.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../if-else/baitap1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mang01/bai1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mang01/tic-tac-toe/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management-Music.js" beforeDir="false" afterPath="$PROJECT_DIR$/Management-Music.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Music.js" beforeDir="false" afterPath="$PROJECT_DIR$/Music.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Musics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Musics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musci.html" beforeDir="false" afterPath="$PROJECT_DIR$/musci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/play.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../html/baitap3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/baitap3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../toantu/baitap6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../toantu/baitap6.html" afterDir="false" />
     </list>
@@ -88,6 +88,8 @@
       <workItem from="1611068126303" duration="5058000" />
       <workItem from="1611077107197" duration="916000" />
       <workItem from="1611104647846" duration="15446000" />
+      <workItem from="1611154361136" duration="2552000" />
+      <workItem from="1611191766425" duration="3792000" />
     </task>
     <servers />
   </component>

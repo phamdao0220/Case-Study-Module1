@@ -16,11 +16,13 @@
         margin-bottom: 20px;
         color: darkviolet;
     }
-    th  {
+
+    th {
         background-color: darkseagreen;
     }
-    a{
-       background-color: lightcoral;
+
+    a {
+        background-color: lightcoral;
         border-radius: 20px;
         padding: 7px 15px;
 
@@ -43,7 +45,7 @@
 
 </style>
 <body>
-<h1>Trang lưu thông tim nhạc </h1>
+<h1>Trang lưu thông tin bài hát  </h1>
 <a href="index.html">Quay lại </a>
 <table id="play-music" border="1px solid"></table>
 <script>
@@ -52,10 +54,10 @@
     function displayMusics() {
         let str = ` <tr>
                         <th>STT</th>
-                        <th>Tên nhạc </th>
+                        <th>Tên bài hát </th>
                         <th>Tên ca sĩ </th>
                         <th>Thể loại nhạc </th>
-                        <th>Lời bài hát </th>
+                        <th>Ảnh </th>
                         </tr>`
 
         ;
@@ -65,7 +67,7 @@
                         <td>${playMusic[i][0]}</td>
                         <td>${playMusic[i][1]}</td>
                         <td>${playMusic[i][2]}</td>
-                        <td>${playMusic[i][3]}</td>
+                        <td><img width="100px" height="100px" src="${playMusic[i][3]}"></td>
 
             </tr>`
         }

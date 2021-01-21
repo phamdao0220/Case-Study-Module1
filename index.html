@@ -14,28 +14,25 @@
 <body>
 <h1>Trang quản lý nhạc </h1>
 <div class="text">
-<a  href="Musics.html" style="color: red" target="_blank">HOME USER</a>
+    <a href="Musics.html" style="color: red" target="_blank">HOME USER</a>
 </div>
 
-<!--<input class="header" type="text" id="music-search" placeholder=" Tìm kiếm "><br>-->
-
-<a  class="header" href="demo.html">Quay lại </a>
+<a class="header" href="demo.html">Quay lại </a>
 <a class="name" href="musci.html"> Trang phát nhạc </a>
 
 <form>
-    <fieldset id="demo">
-        <legend>Thêm nhạc mới</legend>
-        <input type="text" id="music-name" placeholder="Nhập tên nhạc...">
-        <input type="text" id="music-singer" placeholder="Nhập tên ca sĩ...">
-        <input type="text" id="music-category" placeholder="Nhập tên thể loại...">
-        <input type="text" id="music-lyrics" placeholder="Nhập lời bài hát...">
+<!--    <fieldset id="demo">-->
+<!--        <legend>Thêm nhạc mới</legend>-->
+        <input type="text" id="music-name" placeholder="Nhập tên bài hát..."><br>
+        <input type="text" id="music-singer" placeholder="Nhập tên ca sĩ..."><br>
+        <input type="text" id="music-category" placeholder="Nhập tên thể loại..."><br>
+        <input class="ha" type="text" id="music-img" placeholder="Thêm ảnh..."><br>
         <button class="music" type="button" onclick="addMusic()">Thêm</button>
         <button type="button" onclick="updateMusic()">Sửa</button>
 
 
-    </fieldset>
+<!--    </fieldset>-->
 </form>
-
 <table id="management" border="1px solid">
 </table>
 
@@ -55,6 +52,10 @@
     * {
         margin: 0;
 
+    }
+    .ha{
+        margin-bottom: 10px;
+        font-size: 15px;
     }
 
     table {
@@ -77,6 +78,7 @@
         background-color: orange;
         border-radius: 10px;
         font-size: 15px;
+        margin-bottom: 20px;
     }
 
     .sum {
@@ -118,21 +120,23 @@
     }
 
 
-
     form {
         margin-top: 10px;
     }
-    input{
-       margin-top: 20px;
+
+    input {
+        margin-top: 20px;
+        font-size: 15px;
+        border-radius: 10px;
     }
-    .header{
+
+    .header {
         background-color: cadetblue;
         border-radius: 20px;
         padding: 5px 15px;
         margin-left: 10px;
         width: 60px
     }
-
 
 
 </style>
