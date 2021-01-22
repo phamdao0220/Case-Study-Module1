@@ -19,10 +19,9 @@
 
 <a class="header" href="demo.html">Quay lại </a>
 <a class="name" href="musci.html"> Trang phát nhạc </a>
+<input type="text" id="myInput" onkeyup="searchMusic()" placeholder="Tìm kiếm ">
 
 <form>
-<!--    <fieldset id="demo">-->
-<!--        <legend>Thêm nhạc mới</legend>-->
         <input type="text" id="music-name" placeholder="Nhập tên bài hát..."><br>
         <input type="text" id="music-singer" placeholder="Nhập tên ca sĩ..."><br>
         <input type="text" id="music-category" placeholder="Nhập tên thể loại..."><br>
@@ -30,8 +29,6 @@
         <button class="music" type="button" onclick="addMusic()">Thêm</button>
         <button type="button" onclick="updateMusic()">Sửa</button>
 
-
-<!--    </fieldset>-->
 </form>
 <table id="management" border="1px solid">
 </table>
@@ -67,6 +64,7 @@
     h1 {
         color: darkviolet;
         margin-bottom: 10px;
+        font-size: 40px;
     }
 
     .music {
@@ -88,7 +86,7 @@
 
     .name {
         margin-left: 1000px;
-        background-color: paleturquoise;
+        background-color: cadetblue;
         border-radius: 20px;
         padding: 7px 15px;
     }

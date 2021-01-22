@@ -105,26 +105,25 @@ function loadData() {
     }
 
 }
+function searchMusic() {
+    let input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("management");
+    tr = table.getElementsByTagName("tr");
 
-// function searchMusic() {
-//     let music = prompt("nhap ten bai hat");
-//     for (let i = 0; i < managements.length; i++) {
-//         if (music == managements[i]) {
-//             result = search[i];
-//             flag = true;
-//         }
-//
-//
-//     }
-//     if (flag == true) {
-//         alert(result);
-//     } else {
-//         alert("khong tim thay tu ");
-//         searchMusic();
-//     }
-// }
-//
-// searchMusic();
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[1];
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
 
 
 
